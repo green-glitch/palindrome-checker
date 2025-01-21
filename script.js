@@ -2,14 +2,25 @@ const textInput = document.getElementById("text-input");
 const checkBtn = document.getElementById("check-btn");
 const result = document.getElementById("result");
 
-const checkPalindrome = () => {
-    let text = textInput.value.toLowerCase();
+const checkPalindrome = (text) => {
+    text = text.toLowerCase();
     text = text.split(/\s+/).join("");
-    const reversedText = text.split("").reverse().join("");
+    text = text.split(",").join("");
+    text = text.split(".").join("");
+    text = text.split("-").join("");
+    text = text.split("_").join("");
+    let reversedText = text.split("").reverse().join("");
     return text === reversedText;
 
 }
 
 checkBtn.addEventListener("click", () => {
-    result.innerText = checkPalindrome() ? `${textInput.value} is palindrome`:`${textInput.value} is not palindrome`;
+    let textToCheck = textInput.value;
+
+    if (textToCheck !== ""){
+        result.innerText = checkPalindrome(textToCheck) ? `${textToCheck} is a palindrome`:`${textToCheck} is not a palindrome`;
+    }
+    else {
+        alert("Please input a value");
+    }
 });
