@@ -5,10 +5,7 @@ const result = document.getElementById("result");
 const checkPalindrome = (text) => {
     text = text.toLowerCase();
     text = text.split(/\s+/).join("");
-    text = text.split(",").join("");
-    text = text.split(".").join("");
-    text = text.split("-").join("");
-    text = text.split("_").join("");
+    text = text.split(/[^a-zA-Z0-9 ]/).join("");
     let reversedText = text.split("").reverse().join("");
     return text === reversedText;
 
