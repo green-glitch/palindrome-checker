@@ -19,5 +19,6 @@ checkBtn.addEventListener("click", () => {
     }
     else {
         alert("Please input a value");
+        result.innerText = ``;
     }
 });

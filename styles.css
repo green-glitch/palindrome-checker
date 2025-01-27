@@ -1,14 +1,39 @@
+body {
+    background-color: #005a00;
+}
+
 div {
     width: 60%;
     min-height: 50px;
-    background-color: #fff;
+    height: 150px;
+    background-color: #bfffbf;
     text-align: center;
     margin: auto;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-input, button, span {
+h1 {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+input, button {
     display: block;
-    width: 30%;
     min-width: 200px;
     margin: auto;
+    margin-top: 10px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #ffffff;
+    border-style: solid;
+    
+}
+
+span {
+    display: block;
+    margin: auto;
+    width: 40%;
 }
