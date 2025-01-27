@@ -1,15 +1,21 @@
+:root {
+    overflow:hidden;
+}
+
 body {
     background-color: #005a00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
 }
 
 div {
     width: 60%;
     min-height: 50px;
-    height: 150px;
+    height: 200px;
     background-color: #bfffbf;
     text-align: center;
-    margin: auto;
-    padding: 20px;
     border-radius: 20px;
 }
 
@@ -28,7 +34,7 @@ input, button {
 button {
     border-radius: 10px;
     background-color: #ffffff;
-    border-style: solid;
+    border: green 3px solid;
     cursor: pointer;
 }
 
