@@ -29,7 +29,7 @@ button {
     border-radius: 10px;
     background-color: #ffffff;
     border-style: solid;
-    
+    cursor: pointer;
 }
 
 span {
