@@ -10,7 +10,7 @@ body {
     height: 90vh;
 }
 
-div {
+#block {
     width: 60%;
     min-height: 50px;
     height: 200px;
@@ -38,8 +38,17 @@ button {
     cursor: pointer;
 }
 
-span {
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#result {
     display: block;
     margin: auto;
     width: 40%;
+    height: 20px;
 }
