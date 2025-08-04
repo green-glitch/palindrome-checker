@@ -1,48 +1,48 @@
 # Palindrome Checker
 
-## Opis
+## Description
 
-Palindrome Checker to prosta aplikacja webowa, która pozwala użytkownikowi sprawdzić, czy podany ciąg znaków jest palindromem. Palindrom to wyraz, liczba lub fraza, która czytana od przodu i od tyłu jest taka sama (z pominięciem spacji, wielkości liter i znaków interpunkcyjnych).
+Palindrome Checker is a simple web application that allows users to check whether a given string is a palindrome. A palindrome is a word, number, or phrase that reads the same forwards and backwards (ignoring spaces, letter case, and punctuation marks).
 
-## Instalacja
+## Installation
 
-1. Sklonuj repozytorium:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/twoja-nazwa-uzytkownika/palindrome-checker.git
+   git clone https://github.com/green-glitch/palindrome-checker.git
    ```
 
-2. Przejdź do folderu projektu:
+2. Navigate to the project folder:
 
    ```bash
    cd palindrome-checker
    ```
 
-3. Otwórz plik `index.html` w przeglądarce.
+3. Open the `index.html` file in your browser.
 
-> Nie są wymagane żadne zależności ani instalacja dodatkowych bibliotek.
+> No dependencies or additional libraries are required.
 
-## Użycie
+## Usage
 
-1. Otwórz stronę w przeglądarce.
-2. Wprowadź tekst w pole „Please input a value”.
-3. Kliknij przycisk **Check**.
-4. Wynik zostanie wyświetlony pod polem tekstowym.
+1. Open the page in your browser.
+2. Enter text into the "Please input a value" field.
+3. Click the **Check** button.
+4. The result will be displayed below the text field.
 
-## Funkcje
+## Features
 
-- Sprawdzanie, czy podany ciąg znaków jest palindromem.
-- Obsługa wielkich i małych liter.
-- Pomijanie znaków specjalnych i spacji.
-- Intuicyjny i responsywny interfejs użytkownika.
+- Checks whether the given string is a palindrome.
+- Supports both uppercase and lowercase letters.
+- Ignores special characters and spaces.
+- Intuitive and responsive user interface.
 
-## Technologia
+## Technology
 
-Projekt został zbudowany przy użyciu:
+This project was built using:
 
-- **HTML5** – struktura strony.
-- **CSS3** – stylizacja i układ.
-- **JavaScript (ES6)** – logika aplikacji i interakcja z użytkownikiem.
+- **HTML5** – structure of the page.
+- **CSS3** – styling and layout.
+- **JavaScript (ES6)** – application logic and user interaction.
 
 ---
 
