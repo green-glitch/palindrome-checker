@@ -1,57 +1,50 @@
-# Palindrome Checker 🚀🔁
+# Palindrome Checker
 
-Welcome to the **Palindrome Checker** repository! This simple web app allows you to check if a given string is a palindrome. A palindrome is a word, phrase, or sequence that reads the same backward as forward, ignoring spaces, punctuation, and capitalization. 🌟
+## Opis
 
----
+Palindrome Checker to prosta aplikacja webowa, która pozwala użytkownikowi sprawdzić, czy podany ciąg znaków jest palindromem. Palindrom to wyraz, liczba lub fraza, która czytana od przodu i od tyłu jest taka sama (z pominięciem spacji, wielkości liter i znaków interpunkcyjnych).
 
-## 📝 Features
+## Instalacja
 
-- Interactive UI with a modern design 🎨
-- Handles spaces, punctuation, and case sensitivity 🔡
-- Responsive layout suitable for various devices 📱💻
+1. Sklonuj repozytorium:
 
----
-
-## 📂 Project Structure
-
-```
-Palindrome-Checker/
-├── index.html  # The main HTML file
-├── styles.css  # Stylesheet for the app
-├── script.js   # JavaScript functionality
-```
-
----
-
-## 🛠️ Technologies Used
-
-- **HTML**
-- **CSS**
-- **JavaScript (ES6)**
-
----
-
-## 🖥️ How to Use
-
-1. Clone the repository:
    ```bash
-   git clone https://github.com/green-glitch/palindrome-checker.git
+   git clone https://github.com/twoja-nazwa-uzytkownika/palindrome-checker.git
    ```
-2. Navigate to the project directory:
+
+2. Przejdź do folderu projektu:
+
    ```bash
    cd palindrome-checker
    ```
-3. Open `index.html` in your favorite browser.
-4. Enter a word or phrase in the input field and click "Check." 🎯
+
+3. Otwórz plik `index.html` w przeglądarce.
+
+> Nie są wymagane żadne zależności ani instalacja dodatkowych bibliotek.
+
+## Użycie
+
+1. Otwórz stronę w przeglądarce.
+2. Wprowadź tekst w pole „Please input a value”.
+3. Kliknij przycisk **Check**.
+4. Wynik zostanie wyświetlony pod polem tekstowym.
+
+## Funkcje
+
+- Sprawdzanie, czy podany ciąg znaków jest palindromem.
+- Obsługa wielkich i małych liter.
+- Pomijanie znaków specjalnych i spacji.
+- Intuicyjny i responsywny interfejs użytkownika.
+
+## Technologia
+
+Projekt został zbudowany przy użyciu:
+
+- **HTML5** – struktura strony.
+- **CSS3** – stylizacja i układ.
+- **JavaScript (ES6)** – logika aplikacji i interakcja z użytkownikiem.
 
 ---
 
-## 📸 Screenshot
+> „A palindrome is a word, number, phrase, or other sequence of symbols that reads the same backwards as forwards.” – *Wikipedia*
 
-
-
----
-
-## 🌟 Live Demo
-
-[Check out the live demo here!](https://green-glitch.github.io/palindrome-checker) 🌐
